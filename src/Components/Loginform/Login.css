@@ -1,0 +1,59 @@
+.adduser{
+    
+    width:40%;
+    background-color: rgb(32, 229, 229);
+    padding:40px;
+    margin:50px auto;
+    border-top-right-radius:40px;
+    border-bottom-left-radius:25px;
+    border-top-left-radius:25px;
+    border-bottom-right-radius:40px;
+    border-left-style:groove;
+    border-width:125px;
+    border-color: rgb(255, 85, 0);
+    box-shadow:10px 20px 30px rgb(0, 34, 255);
+    
+}
+.adduserform .input-group{
+    display: flex;
+    width:100%;
+    flex-direction:column;
+}
+.adduserform .input-group label{
+    margin-top:15px;
+    margin-bottom:5px;
+}
+.input-group button{
+    margin-top: 20px;   
+    background:rgba(7, 240, 15, 0.96);
+    border-radius: 10px;
+    padding:7px;
+    transition: padding .3s;
+    size:10px;
+    margin-bottom: 10px;
+    
+}
+.input-group button:hover{
+    padding: 12px;
+    background:brown;
+}
+.Login p{
+    margin-bottom:-0.5px;
+}
+
+
+.Login button{
+    margin-top:8px;
+    margin-bottom: 3px;
+    padding:10px;
+    width:40%;
+    transition:padding .3s;
+
+}
+.Login button:hover{
+    padding:15px;
+    background-color: brown;
+}
+.adduser h1{
+    text-shadow:1px 2px 2px blue;
+}
