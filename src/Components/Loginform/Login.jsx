@@ -19,9 +19,9 @@ const Login = () => {
     <input type='text'id='password'
     placeholder='Enter your password'
     autocomplete="off"/>
-          <button type="submit" class="btn btn-success">
+          <Link to='/search' type="submit" class="btn btn-success">
           LOGIN
-          </button>
+          </Link>
       
         </div>
     </form>
