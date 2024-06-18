@@ -7,7 +7,7 @@ import Signup from './Components/Signupform/Signup';
 function App() {
   const route=createBrowserRouter([
   
-  {path:('/'), 
+  {path:('/'),
    element:<Login/>,
   },
    { path:('/signup'),

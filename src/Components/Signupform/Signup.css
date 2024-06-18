@@ -50,10 +50,7 @@
     transition:padding .3s;
 
 }
-.Login button:hover{
-    padding:15px;
-    background-color: brown;
-}
+
 .adduser h1{
     text-shadow:1px 2px 2px blue;
 }
