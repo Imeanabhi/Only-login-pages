@@ -31,7 +31,7 @@ const data=response.data
       if (data.success) {
         navigate('/'); 
       } else {
-        console.error('Registration failed:', response.data.error);
+        console.error('Registration failed:', data.error);
       }
     } catch (error) {
       console.error('Error registering user:', error);
