@@ -1,10 +1,14 @@
 import axios from 'axios';
 import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import './Login.css';
 
 const Login = () => {
   const navigate = useNavigate();
+
+  const goToSignup = () => {
+    navigate('/signup');
+  };
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
@@ -21,7 +25,7 @@ const Login = () => {
       const data = response.data;
 
       if (data.success) {
-        navigate('/search');
+        navigate('/Search');
       } else {
         setError(data.message);
       }
@@ -66,9 +70,9 @@ const Login = () => {
 
       <div className='Login'>
         <p>Don't have an account?</p>
-        <Link to='/signup' className='btn btn-primary'>
+        <button onClick={goToSignup} className=' btn-primary'>
           SIGN UP
-        </Link>
+        </button>
       </div>
     </div>
   );
